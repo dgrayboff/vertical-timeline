@@ -1,25 +1,83 @@
 .timeline {
-  font-family: Helvetica, serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
 
 }
 
+.timeline::before {
 
+}
 .date_time {
-
+  color: lightgray;
+  font-size: small;
+  text-indent: 48px;
 }
 
 .phone_logo {
 
 }
 
+.computer_logo {
+
+}
+
+
+/*//////////// FIRST SECTION /////////*/
+.timestyle {
+  color: #67C8FF;
+  font-weight: 400;
+  font-size: 3em;
+}
+
 .section1 {
-  background-color: #82CFFD;
+  background-color: #67C8FF;
   color: #ffffff;
   padding: 2em;
   width: 80%;
+  line-height: 1.4;
+  border-radius: 5px;
+  margin: 10px;
 }
 
-hr {
-  border-width: 1px;
+.section1 > h2{
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+/*//////////// SECOND SECTION /////////*/
+
+.timestyle_two {
+  color: #3299CC;
+  font-weight: 400;
+  font-size: 3em;
+}
+
+.section2 {
+  background-color: #3299CC;
   color: #ffffff;
+  padding: 2em;
+  width: 80%;
+  line-height: 1.4;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+.section2 > h2{
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+
+/* REST */
+
+hr {
+
+  width:100%;
+  border: 0;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+  opacity: .5;
+
 }
