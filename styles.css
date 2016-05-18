@@ -2,25 +2,28 @@
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 300;
-
+  width: 910px;
+  margin: 0 auto;
 }
 
-.timeline::before {
+/*.timeline::before {
 
-}
+}*/
+
 .date_time {
   color: lightgray;
   font-size: small;
   text-indent: 48px;
 }
 
-.phone_logo {
+/*.phone_logo {
 
 }
 
 .computer_logo {
 
-}
+}*/
+
 
 
 /*//////////// FIRST SECTION /////////*/
@@ -37,7 +40,8 @@
   width: 80%;
   line-height: 1.4;
   border-radius: 5px;
-  margin: 10px;
+  margin-left: 200px;
+
 }
 
 .section1 > h2{
@@ -80,4 +84,23 @@ hr {
   margin-bottom: 20px;
   opacity: .5;
 
+}
+
+.left_line {
+
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #B0E2FF;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-left: 10px solid #B0E2FF;
+  margin-left: -10px;
+  left: 17em;
 }
