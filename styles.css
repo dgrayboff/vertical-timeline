@@ -7,10 +7,6 @@
 
 }
 
-/*.timeline::before {
-
-}*/
-
 .date_time {
   color: lightgray;
   font-size: small;
@@ -20,25 +16,17 @@
   padding-top: 5px;
 }
 
-/*.phone_logo {
-
-}
-
-.computer_logo {
-
-}*/
-
-ul {
-
-}
 .fa {
   color: #3299CC;
+  background-color:#B0E2FF;
+
   box-shadow: 0px 0px 0px 10px #B0E2FF;
   border-radius: 50%;
   margin-left: 5em;
   margin-top: 1em;
-
+  position: absolute;
 }
+
 /*//////////// FIRST SECTION /////////*/
 .timestyle {
   color: #67C8FF;
@@ -120,7 +108,7 @@ hr {
     border-left: 10px solid #B0E2FF;
     margin-left: 7em;
     top: 2.6em;
-    bottom: -103.75em;
+    bottom: -91.5em;
 }
 
 
